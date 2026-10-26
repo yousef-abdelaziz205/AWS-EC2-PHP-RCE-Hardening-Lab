@@ -18,8 +18,7 @@ Hands-on lab demonstrating vulnerability simulation (PHP Remote Code Execution) 
 ### 1. Environment Deployment
 - Launched an EC2 Ubuntu instance on AWS.
 - Configured security groups and initialized the Apache2 web server to host the local test environment.
-- 
-- ![Terminal Screenshot](Screenshot(291))
+
 - ![Server Connection](Screenshot (292))
 
 ### 2. Vulnerability Simulation (The Exploit)
