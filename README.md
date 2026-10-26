@@ -1,18 +1,18 @@
 # AWS-EC2-PHP-RCE-Hardening-Lab
-# AWS EC2 PHP RCE & Server Hardening Lab 🚀
+# AWS EC2 PHP RCE & Server Hardening Lab 
 
 Hands-on lab demonstrating vulnerability simulation (PHP Remote Code Execution) and server hardening best practices on an AWS EC2 Ubuntu instance, completed as part of the Digital Egypt Pioneers Initiative (DEPI) - AWS Cloud Security Track.
 
 ---
 
-## 🛠️ Lab Architecture & Environment
+##  Lab Architecture & Environment
 - **Cloud Provider:** Amazon Web Services (AWS)
 - **Compute:** EC2 Instance (`t3.micro`) running Ubuntu & Apache2 Web Server.
 - **Security Focus:** Vulnerability Remediation, Access Controls, and Defense-in-Depth.
 
 ---
 
-## 📋 Implementation Steps
+##  Implementation Steps
 
 ### 1. Environment Deployment
 - Launched an EC2 Ubuntu instance on AWS.
