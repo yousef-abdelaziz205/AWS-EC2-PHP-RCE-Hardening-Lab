@@ -36,8 +36,8 @@ To secure the server and mitigate risks, the following hardening steps were impl
 - **Firewall Configuration (UFW):** Configured Uncomplicated Firewall to restrict incoming traffic and allow only necessary ports (HTTP/HTTPS/SSH).
 - **Log Monitoring:** Enabled and reviewed system and web server logs to track access patterns and anomalies.
 
-- ![PHP Hardening & UFW Configuration]()
-- ![Security Permissions Check](Screenshot (302))
+- ![PHP Hardening & UFW Configuration](https://github.com/yousef-abdelaziz205/AWS-EC2-PHP-RCE-Hardening-Lab/blob/main/Screenshot%20(301).png)
+- ![Security Permissions Check]()
 - ![Security Permissions Check](Screenshot (304))
 - ![Security Permissions Check](Screenshot (309))
 - ![Security Permissions Check](Screenshot (311))
