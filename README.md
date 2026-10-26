@@ -26,7 +26,7 @@ Hands-on lab demonstrating vulnerability simulation (PHP Remote Code Execution) 
 - Verified successful command execution and server response (`200 OK`) via the test script.
 - 
 - ![Executing Exploit](Screenshot (297))
-- ![RCE Command Output](Screenshot (298))
+- ![RCE Command Output](https://github.com/yousef-abdelaziz205/AWS-EC2-PHP-RCE-Hardening-Lab/blob/main/Screenshot%20(298).png)
 
 
 ### 3. Server Hardening & Remediation
