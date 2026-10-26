@@ -25,7 +25,7 @@ Hands-on lab demonstrating vulnerability simulation (PHP Remote Code Execution) 
 - Deployed a PHP-based Remote Code Execution (RCE) Proof of Concept (PoC) to simulate real-world web application vulnerabilities.
 - Verified successful command execution and server response (`200 OK`) via the test script.
 - 
-- ![Executing Exploit](Screenshot (297))
+- ![Executing Exploit](https://github.com/yousef-abdelaziz205/AWS-EC2-PHP-RCE-Hardening-Lab/blob/main/Screenshot%20(297).png)
 - ![RCE Command Output](https://github.com/yousef-abdelaziz205/AWS-EC2-PHP-RCE-Hardening-Lab/blob/main/Screenshot%20(298).png)
 
 
