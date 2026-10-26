@@ -10,6 +10,7 @@ Hands-on lab demonstrating vulnerability simulation (PHP Remote Code Execution) 
 - **Compute:** EC2 Instance (`t3.micro`) running Ubuntu & Apache2 Web Server.
 - **Security Focus:** Vulnerability Remediation, Access Controls, and Defense-in-Depth.
 
+
 ---
 
 ##  Implementation Steps
@@ -17,10 +18,17 @@ Hands-on lab demonstrating vulnerability simulation (PHP Remote Code Execution) 
 ### 1. Environment Deployment
 - Launched an EC2 Ubuntu instance on AWS.
 - Configured security groups and initialized the Apache2 web server to host the local test environment.
+- 
+- ![Terminal Screenshot](screenshot(291))
+- ![Server Connection](Screenshot (292))
 
 ### 2. Vulnerability Simulation (The Exploit)
 - Deployed a PHP-based Remote Code Execution (RCE) Proof of Concept (PoC) to simulate real-world web application vulnerabilities.
 - Verified successful command execution and server response (`200 OK`) via the test script.
+- 
+- ![Executing Exploit](Screenshot (297))
+- ![RCE Command Output](Screenshot (298))
+
 
 ### 3. Server Hardening & Remediation
 To secure the server and mitigate risks, the following hardening steps were implemented:
@@ -28,6 +36,14 @@ To secure the server and mitigate risks, the following hardening steps were impl
 - **File Permissions & Ownership:** Enforced strict file permissions on web directories to prevent unauthorized modifications by the web server user (`www-data`).
 - **Firewall Configuration (UFW):** Configured Uncomplicated Firewall to restrict incoming traffic and allow only necessary ports (HTTP/HTTPS/SSH).
 - **Log Monitoring:** Enabled and reviewed system and web server logs to track access patterns and anomalies.
+
+- ![PHP Hardening & UFW Configuration](Screenshot (301))
+- ![Security Permissions Check](Screenshot (302))
+- ![Security Permissions Check](Screenshot (304))
+- ![Security Permissions Check](Screenshot (309))
+- ![Security Permissions Check](Screenshot (311))
+- ![Security Permissions Check](Screenshot (321))
+
 
 ---
 
