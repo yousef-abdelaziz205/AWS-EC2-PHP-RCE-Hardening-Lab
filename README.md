@@ -19,7 +19,7 @@ Hands-on lab demonstrating vulnerability simulation (PHP Remote Code Execution) 
 - Launched an EC2 Ubuntu instance on AWS.
 - Configured security groups and initialized the Apache2 web server to host the local test environment.
 
-- ![Terminal Screenshot](Screenshot(291).png)
+- ![Terminal Screenshot](https://github.com/yousef-abdelaziz205/AWS-EC2-PHP-RCE-Hardening-Lab/blob/main/Screenshot%20(291).png)
 
 ### 2. Vulnerability Simulation (The Exploit)
 - Deployed a PHP-based Remote Code Execution (RCE) Proof of Concept (PoC) to simulate real-world web application vulnerabilities.
