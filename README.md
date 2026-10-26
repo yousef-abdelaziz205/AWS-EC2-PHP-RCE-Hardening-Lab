@@ -38,10 +38,10 @@ To secure the server and mitigate risks, the following hardening steps were impl
 
 - ![PHP Hardening & UFW Configuration](https://github.com/yousef-abdelaziz205/AWS-EC2-PHP-RCE-Hardening-Lab/blob/main/Screenshot%20(301).png)
 - ![Security Permissions Check](https://github.com/yousef-abdelaziz205/AWS-EC2-PHP-RCE-Hardening-Lab/blob/main/Screenshot%20(303).png)
-- ![Security Permissions Check](Screenshot (304))
-- ![Security Permissions Check](Screenshot (309))
-- ![Security Permissions Check](Screenshot (311))
-- ![Security Permissions Check](Screenshot (321))
+- ![Security Permissions Check](https://github.com/yousef-abdelaziz205/AWS-EC2-PHP-RCE-Hardening-Lab/blob/main/Screenshot%20(305).png)
+- ![Security Permissions Check]()
+- ![Security Permissions Check]()
+- ![Security Permissions Check]()
 
 
 ---
