@@ -49,3 +49,39 @@ To secure the server and mitigate risks, the following hardening steps were impl
 ## 👤 Author
 - **Yousef Abdelaziz**
 - **Track:** AWS Cloud Security | DEPI
+
+
+
+
+
+
+
+
++-------------------------------------------------------------------------+
+|                        ATTACKER MACHINE (Kali / PC)                     |
+|          - Sends Exploit / Web Shell Payload (PHP2Shell)                |
++-------------------------------------------------------------------------+
+│
+▼ (HTTP / RCE)
++-------------------------------------------------------------------------+
+|                        AWS CLOUD ENVIRONMENT                            |
+|  +-------------------------------------------------------------------+  |
+|  | AWS EC2 Instance (Ubuntu + Apache + Vulnerable PHP)               |  |
+|  |                                                                   |  |
+|  |   [ Unsanitized File Upload ] ──> [ RCE / Web Shell Execution ]   |  |
+|  +-------------------------------------------------------------------+  |
++-------------------------------------------------------------------------+
+│
+▼ (Security Remediation)
++-------------------------------------------------------------------------+
+|                     PHASE 2: HARDENING & FIXES                          |
+
+|   1. php.ini Hardening (disable_functions: exec, system, shell_exec)    |
+
+|   2. Restricting File Permissions & Apache www-data User Access         |  |
+|   3. AWS Security Group Inbound/Outbound Rules Optimization             |  |
++-------------------------------------------------------------------------+
+
+
+
+
